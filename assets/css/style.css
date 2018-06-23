@@ -1,0 +1,499 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+head {
+    display: none;
+}
+
+img{
+margin-right: 20px;
+}
+
+div.col-md-4{
+float: right;
+margin: 5px;
+}
+
+img.movImage:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.ratings {
+    color: #000;
+    font-family: avenir;
+    font-size: 18px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+.top-title {
+    text-align: center;
+    color: #000;
+    font-size: 150px;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 10
+}
+
+body {
+    background: url(../images/zachtrippybackground.mp4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    margin: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+#add {
+    font-size: 20px;
+    color: #000;
+}
+
+.top-title {
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+/* This is the H1 area */
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-family: Lobster;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.h1, h1 {
+    font-size: 36px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+
+/* This section is the animation on the H1 */
+
+span{
+    animation-duration: 15s;
+    animation-fill-mode: both;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash{
+    -webkit-animation-name: flash;
+    animation-name: flash;
+}
+
+.animated{
+animation-duration: 3s;
+animation-fill-mode: both;
+}
+
+.flashanimated{
+    -webkit-animation-name: flash;
+    animation-name: flash;
+}
+
+.flashanimated{
+animation-duration: 3s;
+animation-fill-mode: both;
+}
+
+#animationsandbox {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+#animationsandbox{
+animation-duration: 3s;
+animation-fill-mode: both;
+}
+
+
+/* This is the button area */
+
+.btn-group-vertical>
+.btn-group:after, 
+.btn-group-vertical>
+.btn-group:before, 
+.btn-toolbar:after, 
+.btn-toolbar:before, 
+.clearfix:after, 
+.clearfix:before, 
+.container-fluid:after, 
+.container-fluid:before, 
+.container:after, 
+.container:before, 
+.dl-horizontal dd:after, 
+.dl-horizontal dd:before, 
+.form-horizontal 
+.form-group:after, 
+.form-horizontal 
+.form-group:before, 
+.modal-footer:after, 
+.modal-footer:before, 
+.modal-header:after, 
+.modal-header:before, 
+.nav:after, 
+.nav:before, 
+.navbar-collapse:after, 
+.navbar-collapse:before, 
+.navbar-header:after, 
+.navbar-header:before, 
+.navbar:after, 
+.navbar:before, 
+.pager:after, 
+.pager:before, 
+.panel-body:after, 
+.panel-body:before, 
+.row:after, 
+.row:before {
+    display: table;
+    content: " ";
+}
+
+.btn-group-vertical>
+.btn-group:after, 
+.btn-toolbar:after, 
+.clearfix:after, 
+.container-fluid:after, 
+.container:after, 
+.dl-horizontal dd:after, 
+.form-horizontal 
+.form-group:after, 
+.modal-footer:after, 
+.modal-header:after, 
+.nav:after, 
+.navbar-collapse:after, 
+.navbar-header:after, 
+.navbar:after, 
+.pager:after, 
+.panel-body:after, 
+.row:after {
+    clear: both;
+}
+
+.btn-group-vertical>
+.btn-group:after, 
+.btn-group-vertical>
+.btn-group:before, 
+.btn-toolbar:after, 
+.btn-toolbar:before, 
+.clearfix:after, 
+.clearfix:before, 
+.container-fluid:after, 
+.container-fluid:before, 
+.container:after, 
+.container:before, 
+.dl-horizontal dd:after, 
+.dl-horizontal dd:before, 
+.form-horizontal 
+.form-group:after, 
+.form-horizontal 
+.form-group:before, 
+.modal-footer:after, 
+.modal-footer:before, 
+.modal-header:after, 
+.modal-header:before, 
+.nav:after, 
+.nav:before, 
+.navbar-collapse:after, 
+.navbar-collapse:before, 
+.navbar-header:after, 
+.navbar-header:before, 
+.navbar:after, 
+.navbar:before, 
+.pager:after, 
+.pager:before, 
+.panel-body:after, 
+.panel-body:before, 
+.row:after, 
+.row:before {
+    display: table;
+    content: " ";
+}
+
+button, 
+input, 
+optgroup, 
+select, 
+textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+button, 
+input, 
+select, 
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}  
+button, select {
+    text-transform: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* This is the styling for the buttons that call the gif */
+
+.btn-primary {
+    margin-left: 25px;
+    background: transparent;
+    color: #000;
+    border-color: #000;
+    border: 2px solid #000;
+    border-radius: 6px;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgb(243, 95, 243);
+    border: solid 2px #000(243, 95, 243);
+}
+
+/* This is the the styleing for the submit button */
+
+.btn-success {
+    color: #000;
+    background-color: transparent;
+    border-color: #000;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+.btn-success:hover {
+    color: #000;
+    border-radius: 4px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgb(30, 145, 30);
+    border: solid 2px #000(243, 95, 243);
+}
+
+/* This is the form area */
+
+.form-control {
+    width: 30%;
+}
+
+.form-control {
+    display: block;
+    width: 40%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input {
+    line-height: normal;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+input, 
+textarea, 
+select, 
+button, 
+meter, 
+progress {
+-webkit-writing-mode: horizontal-tb !important;
+}
+
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+
+/* This is the area for the container */
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin:10px;
+}
+
+#showcase{
+    margin: 30px;
+    background-color: rgba(197, 61, 224, 0.5) /* purple background with 50% opacity */
+}
+
+
+
+
